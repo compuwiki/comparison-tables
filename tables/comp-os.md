@@ -22,7 +22,7 @@
 | Areas of Use                | Smartphones, tablets, TV         | Servers, desktop, alternative mobile                                     | Apple smartphone/tablet | Desktop, gaming, enterprise    | Professional desktop | Servers, NAS, embedded   |
 | Number of Variants          | ~10–15                           | ~300+ ~5–8                                                               | 1                       | 5                              | 1                   | 3                         |
 | Overall Versatility         | 3/5                              | 5/5                                                                      | 1/5                     | 3/5                            | 2/5                 | 2/5                       |
-| Availability                | Open source core (AOSP) + proprietary Google services on most builds | Free and open source (various distros)| Proprietary, closed source | Proprietary, closed source | Proprietary, closed source | Permissive open source |
+| Availability                | Open-source core (AOSP) + proprietary services | Free and open source (various distros)| Proprietary, closed source | Proprietary, closed source | Proprietary, closed source | Permissive open source |
 
 ## Tools
 

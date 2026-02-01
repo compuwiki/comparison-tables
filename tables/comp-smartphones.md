@@ -16,19 +16,3 @@
 | Software Repairability     | ✅ **Excellent** — Protected iOS, easy secure reinstall with iTunes                    | ✅ **Excellent** — ODIN recovery, official firmware, safe flashing       | ✅ **Very Good** — ColorOS OTA reinstall, but locked bootloader           | ✅ **Very Good** — OxygenOS easy to reinstall, fastboot available     | ✅ **Excellent** — Pure Android, open fastboot, ROMs and GrapheneOS  | ✅ **Excellent** — HyperOS OTA reinstall, open fastboot and ROMs             |
 | Price (€)                  | 1,459                                                                                  | 1,199                                                                   | 1,251                                                                    | 979                                                                  | 1,029                                                               | 900                                                                         |
 | Overall Rating             | **Excellent** — Maximum reliability and stability                                      | **Excellent** — Perfect hardware/software balance                        | **Very Good** — Excellent battery and daily experience                   | **Very Good** — Great battery, best price/performance                | **Good** — Excellent software, just okay battery/alarms              | **Very Good** — Best camera/price, modding friendly                         |
-
-
-## Android vs iOS
-
-| Category                   | Android                                         | iOS                                               |
-| -------------------------- | ----------------------------------------------- | ------------------------------------------------- |
-| Developer                  | Google                                          | Apple                                             |
-| Code Model                 | Open source (AOSP)                              | Closed source                                     |
-| Customization              | Very high (Launchers, widgets, ROMs)            | Limited (improving with widgets)                  |
-| App Store                  | Google Play Store (and third-party stores)      | Apple App Store (exclusive)                       |
-| Hardware                   | Great variety (Samsung, Pixel, Xiaomi, etc.)    | Exclusive to Apple (iPhone)                       |
-| Security                   | High (permission-based, Google Play Protect)    | Very high (closed and controlled environment)     |
-| Updates                    | Depends on manufacturer (fragmented)            | Immediate for all compatible devices              |
-| Virtual Assistant          | Google Assistant                                | Siri                                              |
-| File Transfer              | Simple (like a USB drive)                       | More restrictive (requires iTunes or AirDrop)     |
-| Ecosystem Integration      | Excellent with Google services                   | Excellent with Apple products (Mac, iPad, Watch)  |
