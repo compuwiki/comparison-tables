@@ -140,22 +140,26 @@
 ### **Key Insights**
 
 **Abstraction vs Performance**
+
 - Native → max efficiency, min portability
 - Cross-platform compiled → balanced performance + portability
 - Web/containerized → max portability, runtime-dependent efficiency
 
 **Common Language Patterns**
+
 - Performance-critical → C, C++, Rust
 - Rapid development → Python, C#, TypeScript, Dart
 - Web/universal → JS, TypeScript, WASM
 
 **Modern Trends**
+
 - WASM bridges efficiency + portability
 - Cross-platform frameworks (Qt, Flutter, Tauri) improve native feel
 - Cloud-native with containers + orchestration as default
 - Observability built-in from the start
 
 **Recommended Stacks by Project Type**
+
 - Web startup → TypeScript + Next.js/React + PostgreSQL + Docker
 - Mobile app → Flutter or React Native + Firebase/Supabase
 - Game → Unreal/Unity + C++/C#
