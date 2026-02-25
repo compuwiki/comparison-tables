@@ -1,8 +1,8 @@
 # Media Streaming Diagrams
 
-Below are Mermaid diagrams that illustrate library clients, streaming aggregators, IPTV, and Netflix-style streaming. These are conceptual flows meant for comparison.
+Below are Mermaid diagrams that illustrate different Video Streaming Workflows.
 
-## Library Client (server-based)
+## Self-Hosted Library (Usenet/Torrent)
 
 ```mermaid
 flowchart LR
@@ -30,7 +30,7 @@ flowchart LR
   Library --> User
 ```
 
-## Streaming Aggregator Client (addons + debrid)
+## Addon-Based Streaming
 
 ```mermaid
 flowchart LR
@@ -48,7 +48,7 @@ flowchart LR
   VPN -. optional .-> Sources
 ```
 
-## IPTV workflow (client + provider)
+## IPTV
 
 ```mermaid
 flowchart LR
@@ -60,7 +60,7 @@ flowchart LR
   Device --> User
 ```
 
-## Netflix (centralized streaming)
+## Subscription Streaming Services
 
 ```mermaid
 flowchart LR
@@ -73,9 +73,9 @@ flowchart LR
 
 ## Pros and Cons by Workflow
 
-| Workflow                        | Pros                                               | Cons                                            |
-|---------------------------------|----------------------------------------------------|-------------------------------------------------|
-| Library client (server-based)   | Full library control; automation friendly          | More services and setup; storage required       |
-| Streaming aggregator client     | Simple app UX; broad catalogs; fast cached streams | Addon churn; third-party risk; uneven metadata  |
-| IPTV workflow                   | Live channels; simple client setup                 | Provider quality varies; unstable lineups       |
-| Netflix (centralized streaming) | Stable quality; easy setup; consistent UX          | Region-locked catalog; ongoing cost; DRM limits |
+| Workflow                             | Sample Apps                         | Pros                                               | Cons                                            |
+|--------------------------------------|-------------------------------------|----------------------------------------------------|-------------------------------------------------|
+| Self-Hosted Library (Usenet/Torrent) | Plex, Emby, Jellyfin                | Full library control; automation friendly          | More services and setup; storage required       |
+| Addon-Based Streaming                | Stremio, P-Stream, PlayTorrio       | Simple app UX; broad catalogs; fast cached streams | Addon churn; third-party risk; uneven metadata  |
+| IPTV                                 | IPTV Smarters, VLC                  | Live channels; simple client setup                 | Provider quality varies; unstable lineups       |
+| Subscription Streaming Services      | Netflix, Disney+, Prime Video, etc. | Stable quality; easy setup; consistent UX          | Region-locked catalog; ongoing cost; DRM limits |
