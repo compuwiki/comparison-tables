@@ -129,26 +129,6 @@ flowchart TD
 
 ---
 
-## FreeBSD (Typical Modern Setup with Xorg or Wayland)
-
-```mermaid
-flowchart TD
-    A[App] --> B[X11 or Wayland Lib]
-    B --> C[Xorg or Wayland Compositor]
-    A --> D[OpenGL / Vulkan]
-    D --> C
-    C --> E[DRM-kmod]
-    E --> F[GPU Driver]
-    F --> G[Display Hardware]
-```
-
-**Notes**
-
-* FreeBSD does not define its own display protocol.
-* It typically uses Xorg or Wayland via the DRM compatibility layer.
-
----
-
 ## Comparative Tables
 
 | System                 | Display Server / Compositor            | Graphics API Focus | Network Transparency          | Window Isolation                                | Rendering Path Model                               | Kernel Interface |
