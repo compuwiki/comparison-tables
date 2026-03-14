@@ -1,1 +1,6 @@
-{}
+{
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "showIndentGuide": true,
+  "showInlineTitle": false
+}

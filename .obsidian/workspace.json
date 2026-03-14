@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "192c606331a519f8",
+        "id": "cc9d3d2930923be6",
         "type": "tabs",
         "children": [
           {
-            "id": "3a212169c7e156ba",
+            "id": "13ec85a18452c5dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "en/media-streaming.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "media-streaming"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "797dfb9a1e6a679f",
@@ -183,8 +179,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "3a212169c7e156ba",
+  "active": "13ec85a18452c5dd",
   "lastOpenFiles": [
+    "software/operating-systems.md",
+    "notes.md",
+    "software/casting.md",
+    "software/media-streaming.md",
+    "software/display-system.md",
+    "software/dev-stack.md",
+    "software/web-frameworks.md",
     "en/comp-smartphones.md",
     "en/comp-os.md"
   ]
